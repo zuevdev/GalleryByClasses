@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery by Classes</title>
+</head>
+<body>
+    <h1>Galleries</h1>
+    <div class="galleries">
+        <p>Cars gallery</p>
+        <div class="gallery gallery_1">
+            <img src="img/cars/L_1.jpg" alt="Photo_1" tabindex="0" title="Lamborghini photo 1" data-description="Very powerfull and beautifull car">
+            <img src="img/cars/L_2.jpg" alt="Photo_2" tabindex="0" title="Lamborghini photo 2" data-description="Very powerfull and beautifull car">
+            <img src="img/cars/L_3.jpg" alt="Photo_3" tabindex="0" title="Lamborghini photo 3" data-description="Very powerfull and beautifull car">
+            <img src="img/cars/L_4.jpg" alt="Photo_4" tabindex="0" title="Lamborghini photo 4" data-description="Very powerfull and beautifull car">
+            <img src="img/cars/L_5.jpg" alt="Photo_5" tabindex="0" title="Lamborghini photo 5" data-description="Very powerfull and beautifull car">
+        </div>
+        <p>Flowers gallery</p>
+        <div class="gallery gallery_2">
+            <img src="img/flowers/F_1.jpg" alt="Photo_1" tabindex="0" title="Flower photo 1" data-description="Very beautifull flawor">
+            <img src="img/flowers/F_2.jpg" alt="Photo_2" tabindex="0" title="Flower photo 2" data-description="Very beautifull flawor">
+            <img src="img/flowers/F_3.jpg" alt="Photo_3" tabindex="0" title="Flower photo 3" data-description="Very beautifull flawor">
+            <img src="img/flowers/F_4.jpg" alt="Photo_4" tabindex="0" title="Flower photo 4" data-description="Very beautifull flawor">
+            <img src="img/flowers/F_5.jpg" alt="Photo_5" tabindex="0" title="Flower photo 5" data-description="Very beautifull flawor">
+        </div>
+    </div>
+    <div class="modal hidden">
+        <div class="modalInner">
+          <button class="prev" aria-label="Previous Photo">←</button>
+          <figure>
+            <img src="img/cars/L_1.jpg" />
+            <figcaption>
+              <h2>Test Title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                dignissimos obcaecati nisi placeat eaque voluptate,
+                exercitationem eius? Non, iusto provident itaque, voluptate
+                labore a alias officia, amet sunt pariatur praesentium tenetur
+                voluptatibus dolores mollitia quasi aliquid assumenda possimus
+                maiores exercitationem!
+              </p>
+            </figcaption>
+          </figure>
+          <button class="next" aria-label="Next Photo">→</button>
+        </div>
+      </div>
+    </div>
+    <script src="gallery_2.js"></script>
+</body>
+</html>

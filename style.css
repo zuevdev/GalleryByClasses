@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/grey_holes.svg);
+    background-size: 8px 8px;
+    background-color: rgb(43, 43, 43);
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(206, 206, 206);
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(206, 206, 206);
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(206, 206, 206);
+}
+.galleries{
+    width: 100%;
+}
+.gallery{
+    height: 180px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+img:hover{
+    cursor: pointer;
+}
+.modal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(66, 66, 66, 0.808);
+}
+.modalInner{
+    display: flex;
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(46, 46, 46);
+}
+figure > img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
